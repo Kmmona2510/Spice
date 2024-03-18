@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T11:37:03 IST" name="Suite" finished-at="2024-03-18T11:38:11 IST" duration-ms="67505">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T11:37:03 IST" name="chromeTest" finished-at="2024-03-18T11:38:11 IST" duration-ms="67505">
+      <class name="test.TC009_Bookingpagetest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC009_Bookingpagetest@4f32a3ad]" started-at="2024-03-18T11:37:59 IST" name="launchBrowser" finished-at="2024-03-18T11:38:10 IST" duration-ms="11629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkin_Display()[pri:0, instance:test.TC009_Bookingpagetest@4f32a3ad]" started-at="2024-03-18T11:38:10 IST" name="checkin_Display" finished-at="2024-03-18T11:38:11 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkin_Display -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC009_Bookingpagetest@4f32a3ad]" started-at="2024-03-18T11:38:11 IST" name="browserClose" finished-at="2024-03-18T11:38:11 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC009_Bookingpagetest -->
+      <class name="test.TC003b_Roundtriptest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC003b_Roundtriptest@71075444]" started-at="2024-03-18T11:37:40 IST" name="launchBrowser" finished-at="2024-03-18T11:37:54 IST" duration-ms="13874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="round_Trip()[pri:0, instance:test.TC003b_Roundtriptest@71075444]" started-at="2024-03-18T11:37:54 IST" name="round_Trip" finished-at="2024-03-18T11:37:58 IST" duration-ms="4610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- round_Trip -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC003b_Roundtriptest@71075444]" started-at="2024-03-18T11:37:58 IST" name="browserClose" finished-at="2024-03-18T11:37:59 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC003b_Roundtriptest -->
+      <class name="test.TC003a_Onewaytest">
+        <test-method is-config="true" signature="getreport()[pri:0, instance:test.TC003a_Onewaytest@312aa7c]" started-at="2024-03-18T11:37:03 IST" name="getreport" finished-at="2024-03-18T11:37:03 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreport -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC003a_Onewaytest@312aa7c]" started-at="2024-03-18T11:37:03 IST" name="launchBrowser" finished-at="2024-03-18T11:37:15 IST" duration-ms="11438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="one_way()[pri:0, instance:test.TC003a_Onewaytest@312aa7c]" started-at="2024-03-18T11:37:15 IST" name="one_way" finished-at="2024-03-18T11:37:40 IST" duration-ms="24688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one_way -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC003a_Onewaytest@312aa7c]" started-at="2024-03-18T11:37:40 IST" name="browserClose" finished-at="2024-03-18T11:37:40 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="closereport()[pri:0, instance:test.TC003a_Onewaytest@312aa7c]" started-at="2024-03-18T11:38:11 IST" name="closereport" finished-at="2024-03-18T11:38:11 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null
+at base.ProjectSpecification.closereport(ProjectSpecification.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:410)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereport -->
+      </class> <!-- test.TC003a_Onewaytest -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
